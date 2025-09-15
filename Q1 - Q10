@@ -1,0 +1,84 @@
+Q1: Write a program to input two numbers and display their sum.
+
+/*
+Sample Test Cases:
+Input 1:
+3 4
+Output 1:
+Sum = 7
+
+Input 2:
+-1 20
+Output 2:
+Sum = 19
+
+*/
+
+CODE -
+#include <stdio.h>
+
+int main() {
+    int a = -1,b = 20,sum;
+    scanf("%d %d", &a, &b);
+
+    sum = a + b;
+
+    printf("Sum = %d\n", sum);
+
+    return 0;
+}
+
+Q2: Write a program to input two numbers and display their sum, difference, product, and quotient.
+
+/*
+Sample Test Cases:
+Input 1:
+10 2
+Output 1:
+Sum=12, Diff=8, Product=20, Quotient=5
+
+Input 2:
+7 3
+Output 2:
+Sum=10, Diff=4, Product=21, Quotient=2
+
+*/
+
+CODE - 
+#include <stdio.h>
+
+int main() {
+    int a = 10, b = 2;
+    int sum, diff, product, quotient;
+    scanf("%d %d", &a, &b);
+
+  
+    sum = a + b;
+    diff = a - b;
+    product = a * b;
+    quotient = a / b;  
+    
+    printf("Sum=%d, Diff=%d, Product=%d, Quotient=%d\n", sum, diff, product, quotient);
+
+    return 0;
+}
+
+Q3: Write a program to calculate the area and perimeter of a rectangle given its length and breadth.
+
+/*
+Sample Test Cases:
+Input 1:
+5 10
+Output 1:
+Area=50, Perimeter=30
+
+Input 2:
+3 7
+Output 2:
+Area=21, Perimeter=20
+
+*/
+
+CODE - 
+
+
